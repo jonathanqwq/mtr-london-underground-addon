@@ -316,6 +316,6 @@ public final class Blocks {
 	}
 
 	private static BlockState getGenericState() {
-		return TFL_BLOCK.get().getDefaultState();
+		return org.mtr.mapping.holder.Blocks.getDirtMapped().getDefaultState();
 	}
 }

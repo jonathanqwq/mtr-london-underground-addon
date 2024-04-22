@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "block/stop_marker",
 		"1": "block/gray_concrete",
-		"particle": "Pictures/stop_marker"
+		"particle": "block/stop_marker"
 	},
 	"elements": [
 		{

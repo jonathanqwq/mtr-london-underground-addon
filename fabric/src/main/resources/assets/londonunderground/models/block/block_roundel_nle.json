@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "londonundergound:block/block_roundel_base",
+	"parent": "londonunderground:block/block_roundel_base",
 	"textures": {
 		"1": "londonunderground:block/roundel_nle"
 	},

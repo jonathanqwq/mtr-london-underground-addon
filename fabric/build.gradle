@@ -17,7 +17,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${buildTools.getFabricVersion()}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${buildTools.getFabricApiVersion()}"
 	modApi "com.terraformersmc:modmenu:${buildTools.getModMenuVersion()}"
-	modImplementation "org.mtr:MTR-fabric-${minecraftVersion}:${mtrVersion}"
+	modImplementation "org.mtr:MTR-fabric:${mtrVersion}+${minecraftVersion}"
 }
 
 repositories {
@@ -37,7 +37,7 @@ tasks.register("setupFiles") {
 		outputs.upToDateWhen { false }
 		from "src/main/fabric.mod.template.json"
 		into "src/main/resources"
-		filter(ReplaceTokens, tokens: ["minecraft": minecraftVersion, "version": minecraftVersion + "-" + version])
+		filter(ReplaceTokens, tokens: ["minecraft": minecraftVersion, "version": version])
 		rename "(.+).template.json", "\$1.json"
 	}
 
