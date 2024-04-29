@@ -90,8 +90,8 @@
 			"model": "mtr:custom_directory/london_underground_1992_v2_waterloo.bbmodel",
 			"model_properties": "mtr:custom_directory/british_rail__class_482.json",
 			"door_animation_type": "STANDARD"
-		}
-	},
+		},
+
 		"london_underground_1995_roundel": {
 			"name": "London Underground 1995 Stock (Roundel Variant)",
 			"color": "0x333333",
