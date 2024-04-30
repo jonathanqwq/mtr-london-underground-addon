@@ -40,7 +40,7 @@ public class TunnelDarknessBlock extends BlockExtension implements BlockWithEnti
 		}
 
 		@Override
-		public double getRenderDistance3() {
+		public double getRenderDistance2() {
 			return 512;
 		}
 	}
