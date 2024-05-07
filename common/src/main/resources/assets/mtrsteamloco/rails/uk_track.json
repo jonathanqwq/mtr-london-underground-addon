@@ -1,0 +1,5 @@
+{
+    "name": "LU Tracks - National Rail",
+    "model": "mtrsteamloco:rails/uk_track/uk_track.obj",
+    "repeatInterval": 0.9
+}
