@@ -27,15 +27,15 @@ public class TunnelA2Signal extends BlockSignalLightBase {
 		return new TileEntityTunnelSignalLight1(pos, state);
 	}
 
-	public static class TileEntityTunnelSignalLight1 extends BlockEntityExtension {
+	public static class TileEntityTunnelSignalLight1 extends BlockEntityBase {
 
 		public TileEntityTunnelSignalLight1(BlockPos pos, BlockState state) {
-			super(BlockEntityTypes.TUNNEL_A2_SIGNAL.get(), pos, state);
+			super(BlockEntityTypes.TUNNEL_A2_SIGNAL.get(), false, pos, state);
 		}
 	}
 
 	@Override
 	public BlockState getPlacementState2(ItemPlacementContext ctx) {
-		return getDefaultState2().with(new Property<>(FACING.data), ctx.getPlayerFacing().rotateYClockwise().data);
+		return getDefaultState2().with(new Property<>(FACING.data), ctx.getPlayerFacing().rotateYClockwise().data).with(new Property<>(IS_45.data), EnumBooleanInverted.FALSE).with(new Property<>(IS_22_5.data), EnumBooleanInverted.FALSE);
 	}
 }
