@@ -6,7 +6,8 @@ import org.mtr.mapping.holder.*;
 import org.mtr.mapping.mapper.BlockEntityRenderer;
 import org.mtr.mapping.mapper.GraphicsHolder;
 import org.mtr.mapping.mapper.PlayerHelper;
-import org.mtr.mod.render.RenderTrains;
+import org.mtr.mod.render.MainRenderer;
+import org.mtr.mod.render.QueuedRenderLayer;
 import org.mtr.mod.render.StoredMatrixTransformations;
 
 import javax.annotation.Nonnull;
@@ -35,7 +36,7 @@ public class RenderDarkTile<T extends TunnelDarknessBlock.TileEntityTunnelDarkne
 		}
 
 		final StoredMatrixTransformations storedMatrixTransformations = new StoredMatrixTransformations(pos.getX(), pos.getY() + 1.5, pos.getZ());
-		RenderTrains.scheduleRender(new Identifier(Init.MOD_ID, "textures/block/tunnel_darkness.png"), false, RenderTrains.QueuedRenderLayer.EXTERIOR, (graphicsHolderNew, offset) -> {
+		MainRenderer.scheduleRender(new Identifier(Init.MOD_ID, "textures/block/tunnel_darkness.png"), false, QueuedRenderLayer.EXTERIOR, (graphicsHolderNew, offset) -> {
 			storedMatrixTransformations.transform(graphicsHolderNew, offset);
 			TUNNEL_ENTITY_MODEL.render(graphicsHolderNew, light, overlay, 1, 1, 1, 50);
 			graphicsHolderNew.pop();
