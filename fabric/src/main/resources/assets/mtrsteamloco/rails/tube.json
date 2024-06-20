@@ -1,5 +1,5 @@
 {
-	"name": "LU Tunnel",
-	"model": "mtrsteamloco:rails/tube/tube.obj",
-	"repeatInterval": 0.9
+    "name": "LU Tunnel",
+    "model": "mtrsteamloco:rails/tube/tube.obj",
+    "repeatInterval": 0.9
 }

@@ -1,5 +1,5 @@
 {
-	"name": "LU Tracks - Platform Pit",
-	"model": "mtrsteamloco:rails/platformpits/platformpits.obj",
-	"repeatInterval": 1.9
+    "name": "LU Tracks - Platform Pit",
+    "model": "mtrsteamloco:rails/platformpits/platformpits.obj",
+    "repeatInterval": 1.9
 }
