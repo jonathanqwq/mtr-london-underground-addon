@@ -1,0 +1,5 @@
+{
+	"name": "LU Tunnel - Tunnel Intersection - B",
+	"model": "mtrsteamloco:rails/lutrack_tunnel_intersection_r/track.obj",
+	"repeatInterval": 0.9
+}

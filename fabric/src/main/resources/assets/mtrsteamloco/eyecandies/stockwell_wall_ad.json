@@ -1,0 +1,10 @@
+{
+	"name": "LU - Stockwell Wall + Ad",
+	"model": "mtrsteamloco:eyecandies/stockwell_wall_ad/stockwell_wall_ad.obj",
+	"scale": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"flipUV": true
+}

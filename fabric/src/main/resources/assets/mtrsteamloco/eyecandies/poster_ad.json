@@ -1,5 +1,9 @@
 {
-    "name": "eyecandy.mtrsteamloco.posterad",
-    "model": "mtrsteamloco:eyecandies/small_banner/poster_ad.obj",
-    "scale": [ 1.0, 1.0, 1.0 ]
+	"name": "eyecandy.mtrsteamloco.posterad",
+	"model": "mtrsteamloco:eyecandies/small_banner/poster_ad.obj",
+	"scale": [
+		1.0,
+		1.0,
+		1.0
+	]
 }

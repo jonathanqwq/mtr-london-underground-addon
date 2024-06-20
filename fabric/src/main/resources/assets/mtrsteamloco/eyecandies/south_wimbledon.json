@@ -1,5 +1,9 @@
 {
-    "name": "eyecandy.mtrsteamloco.southwimbledon",
-    "model": "mtrsteamloco:eyecandies/south_wimbledon/south_wimbledon.obj",
-    "scale": [ 1.0, 1.0, 1.0 ]
+	"name": "eyecandy.mtrsteamloco.southwimbledon",
+	"model": "mtrsteamloco:eyecandies/south_wimbledon/south_wimbledon.obj",
+	"scale": [
+		1.0,
+		1.0,
+		1.0
+	]
 }
